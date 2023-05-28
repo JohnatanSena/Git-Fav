@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Git-Fav</title>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <img src="./svg/logo.svg" alt="logo Git fav">
+      <div class="search">
+        <input
+        type="search"
+        placeholder="DIGITE GITHUB USERNAME PARA FAVORITAR">
+
+        <button>
+          <img src="./svg/startButton.svg" alt="Estrela button favoritar">
+          <span>Favoritar</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+        <table>
+          <thead>
+            <tr>
+              <th>Usuários</th>
+              <th>Repositórios</th>
+              <th>Followers</th>
+              <th>Ação</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="user">
+                <img src="https://github.com/maykbrito.png" alt="img de maykbrito">
+                <a href="https://github.com/maykbrito" target="_blank">
+                  <p>Mayk Brito</p>
+                  <span>/maykbrito</span>
+                </a>
+              </td>
+
+              <td class="repository">
+                76
+              </td>
+
+              <td class="followers">
+                120000
+              </td>
+              <td class="action">
+                <span>Remover</span>
+              </td>
+
+            </tr>
+
+          </tbody>
+        </table>
+    </main>
+
+  </div>
+</body>
+</html>
