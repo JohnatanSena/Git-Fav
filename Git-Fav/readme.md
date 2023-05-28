@@ -1,7 +1,7 @@
 # Git-Fav
 Desáfio do curso Explorer (@Rocketseat).
 
-Nesta aplicação é possível realizar buscas por username dos usuário do Github. A Aplicação usa a prórpia API do Github para inclusão de dados nas tabelas.
+Nesta aplicação é possível realizar buscas por username dos usuário do Github. A aplicação usa a API do Github para inclusão de dados nas tabelas.
 O objetivo dessa aplicação é praticar a entrada e saída de dados, trabalhando com assincronismo e tratamento de erros.
 
 ## Preview
